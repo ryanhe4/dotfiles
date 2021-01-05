@@ -1,0 +1,37 @@
+window:
+  dimensions:
+    columns: 100
+    lines: 40
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  dynamic_title: true
+  decorations: full
+  startup_mode: Windowed    
+
+font:
+  normal:
+    family: "Hack Nerd Font"
+  bold:
+    family: Hack
+  italic:
+    family: Hack
+
+  size: 14    
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: true
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+  - { mouse: Right, action: Copy } 
+
+live_config_reload: true
+
+background_opacity: 0.6  
+
